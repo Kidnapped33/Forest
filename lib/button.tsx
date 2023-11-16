@@ -1,7 +1,7 @@
 import * as React from "react";
 
 function Button() {
-  return <button>I'm a button</button>;
+  return <div>I'm a button</div>;
 }
 
 export default Button;
