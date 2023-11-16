@@ -4,7 +4,18 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  react:
+    specifier: ^18.2.0
+    version: registry.npmmirror.com/react@18.2.0
+  react-dom:
+    specifier: ^18.2.0
+    version: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
+
 devDependencies:
+  '@types/react':
+    specifier: ^18.2.37
+    version: registry.npmmirror.com/@types/react@18.2.37
   awesome-typescript-loader:
     specifier: ^5.2.1
     version: registry.npmmirror.com/awesome-typescript-loader@5.2.1(typescript@3.9.10)
@@ -219,6 +230,12 @@ packages:
       undici-types: registry.npmmirror.com/undici-types@5.26.5
     dev: true
 
+  registry.npmmirror.com/@types/prop-types@15.7.10:
+    resolution: {integrity: sha512-mxSnDQxPqsZxmeShFH+uwQ4kO4gcJcGahjjMFeLbKE95IAZiiZyiEepGZjtXJ7hN/yfu0bu9xN2ajcU0JcxX6A==, tarball: https://registry.npmmirror.com/@types/prop-types/-/prop-types-15.7.10.tgz}
+    name: '@types/prop-types'
+    version: 15.7.10
+    dev: true
+
   registry.npmmirror.com/@types/qs@6.9.10:
     resolution: {integrity: sha512-3Gnx08Ns1sEoCrWssEgTSJs/rsT2vhGP+Ja9cnnk9k4ALxinORlQneLXFeFKOTJMOeZUFD1s7w+w2AphTpvzZw==, tarball: https://registry.npmmirror.com/@types/qs/-/qs-6.9.10.tgz}
     name: '@types/qs'
@@ -231,10 +248,26 @@ packages:
     version: 1.2.7
     dev: true
 
+  registry.npmmirror.com/@types/react@18.2.37:
+    resolution: {integrity: sha512-RGAYMi2bhRgEXT3f4B92WTohopH6bIXw05FuGlmJEnv/omEn190+QYEIYxIAuIBdKgboYYdVved2p1AxZVQnaw==, tarball: https://registry.npmmirror.com/@types/react/-/react-18.2.37.tgz}
+    name: '@types/react'
+    version: 18.2.37
+    dependencies:
+      '@types/prop-types': registry.npmmirror.com/@types/prop-types@15.7.10
+      '@types/scheduler': registry.npmmirror.com/@types/scheduler@0.16.6
+      csstype: registry.npmmirror.com/csstype@3.1.2
+    dev: true
+
   registry.npmmirror.com/@types/retry@0.12.0:
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==, tarball: https://registry.npmmirror.com/@types/retry/-/retry-0.12.0.tgz}
     name: '@types/retry'
     version: 0.12.0
+    dev: true
+
+  registry.npmmirror.com/@types/scheduler@0.16.6:
+    resolution: {integrity: sha512-Vlktnchmkylvc9SnwwwozTv04L/e1NykF5vgoQ0XTmI8DD+wxfjQuHuvHS3p0r2jz2x2ghPs2h1FVeDirIteWA==, tarball: https://registry.npmmirror.com/@types/scheduler/-/scheduler-0.16.6.tgz}
+    name: '@types/scheduler'
+    version: 0.16.6
     dev: true
 
   registry.npmmirror.com/@types/send@0.17.4:
@@ -1097,6 +1130,12 @@ packages:
     name: css-what
     version: 6.1.0
     engines: {node: '>= 6'}
+    dev: true
+
+  registry.npmmirror.com/csstype@3.1.2:
+    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==, tarball: https://registry.npmmirror.com/csstype/-/csstype-3.1.2.tgz}
+    name: csstype
+    version: 3.1.2
     dev: true
 
   registry.npmmirror.com/d@1.0.1:
@@ -2316,6 +2355,12 @@ packages:
       supports-color: registry.npmmirror.com/supports-color@8.1.1
     dev: true
 
+  registry.npmmirror.com/js-tokens@4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, tarball: https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz}
+    name: js-tokens
+    version: 4.0.0
+    dev: false
+
   registry.npmmirror.com/json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==, tarball: https://registry.npmmirror.com/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz}
     name: json-parse-even-better-errors
@@ -2428,6 +2473,15 @@ packages:
       es6-symbol: registry.npmmirror.com/es6-symbol@3.1.3
       object.assign: registry.npmmirror.com/object.assign@4.1.4
     dev: true
+
+  registry.npmmirror.com/loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, tarball: https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz}
+    name: loose-envify
+    version: 1.4.0
+    hasBin: true
+    dependencies:
+      js-tokens: registry.npmmirror.com/js-tokens@4.0.0
+    dev: false
 
   registry.npmmirror.com/lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==, tarball: https://registry.npmmirror.com/lower-case/-/lower-case-2.0.2.tgz}
@@ -3022,6 +3076,28 @@ packages:
       unpipe: registry.npmmirror.com/unpipe@1.0.0
     dev: true
 
+  registry.npmmirror.com/react-dom@18.2.0(react@18.2.0):
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==, tarball: https://registry.npmmirror.com/react-dom/-/react-dom-18.2.0.tgz}
+    id: registry.npmmirror.com/react-dom/18.2.0
+    name: react-dom
+    version: 18.2.0
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: registry.npmmirror.com/loose-envify@1.4.0
+      react: registry.npmmirror.com/react@18.2.0
+      scheduler: registry.npmmirror.com/scheduler@0.23.0
+    dev: false
+
+  registry.npmmirror.com/react@18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==, tarball: https://registry.npmmirror.com/react/-/react-18.2.0.tgz}
+    name: react
+    version: 18.2.0
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: registry.npmmirror.com/loose-envify@1.4.0
+    dev: false
+
   registry.npmmirror.com/readable-stream@2.3.8:
     resolution: {integrity: sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==, tarball: https://registry.npmmirror.com/readable-stream/-/readable-stream-2.3.8.tgz}
     name: readable-stream
@@ -3203,6 +3279,14 @@ packages:
     name: safer-buffer
     version: 2.1.2
     dev: true
+
+  registry.npmmirror.com/scheduler@0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==, tarball: https://registry.npmmirror.com/scheduler/-/scheduler-0.23.0.tgz}
+    name: scheduler
+    version: 0.23.0
+    dependencies:
+      loose-envify: registry.npmmirror.com/loose-envify@1.4.0
+    dev: false
 
   registry.npmmirror.com/schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==, tarball: https://registry.npmmirror.com/schema-utils/-/schema-utils-3.3.0.tgz}
