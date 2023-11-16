@@ -10,6 +10,7 @@ module.exports = {
     library: "aui",
     libraryTarget: "umd",
   },
+  plugins: [new HtmlWebpackPlugin()],
   module: {
     rules: [
       {
