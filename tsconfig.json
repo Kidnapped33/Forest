@@ -5,7 +5,8 @@
     "lib": ["dom", "es6"],
     "jsx": "react",
     "outDir": "dist",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "declaration": true
   },
   "exclude": ["node_modules"]
 }
