@@ -6,8 +6,7 @@ module.exports = {
     index: "./lib/index.tsx",
   },
   output: {
-    filename:"dist",
-    path: path.resolve(__dirname + "dist/lib"),
+    path: path.resolve(__dirname, "dist/lib"),
     library: "aui",
     libraryTarget: "umd",
   },
