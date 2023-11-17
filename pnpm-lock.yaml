@@ -14,8 +14,11 @@ dependencies:
 
 devDependencies:
   '@types/react':
-    specifier: ^18.2.37
+    specifier: ^18.2.0
     version: registry.npmmirror.com/@types/react@18.2.37
+  '@types/react-dom':
+    specifier: ^18.2.0
+    version: registry.npmmirror.com/@types/react-dom@18.2.15
   awesome-typescript-loader:
     specifier: ^5.2.1
     version: registry.npmmirror.com/awesome-typescript-loader@5.2.1(typescript@3.9.10)
@@ -246,6 +249,14 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==, tarball: https://registry.npmmirror.com/@types/range-parser/-/range-parser-1.2.7.tgz}
     name: '@types/range-parser'
     version: 1.2.7
+    dev: true
+
+  registry.npmmirror.com/@types/react-dom@18.2.15:
+    resolution: {integrity: sha512-HWMdW+7r7MR5+PZqJF6YFNSCtjz1T0dsvo/f1BV6HkV+6erD/nA7wd9NM00KVG83zf2nJ7uATPO9ttdIPvi3gg==, tarball: https://registry.npmmirror.com/@types/react-dom/-/react-dom-18.2.15.tgz}
+    name: '@types/react-dom'
+    version: 18.2.15
+    dependencies:
+      '@types/react': registry.npmmirror.com/@types/react@18.2.37
     dev: true
 
   registry.npmmirror.com/@types/react@18.2.37:
