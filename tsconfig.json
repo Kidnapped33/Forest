@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
     "target": "es5",
     "module": "ESNext",
     "lib": ["dom", "es6"],
     "jsx": "react",
-    "outDir": ".",
     "skipLibCheck": true,
     "declaration": true
   },
