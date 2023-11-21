@@ -1,0 +1,19 @@
+.f-bottom {
+  border: 10px solid orange;
+  padding: 10px;
+
+  > button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+
+  > button:hover {
+    background-color: #b24141; /* 颜色加深 */
+  }
+}

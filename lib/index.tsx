@@ -9,7 +9,5 @@ import { createRoot } from 'react-dom/client';
 
 const root = createRoot(document.body);
 // const root = document.createElement('root');
-root.render(<Button />);
-
-
+root.render(<Button/>);
 
