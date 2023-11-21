@@ -17,12 +17,15 @@
     "@types/react-dom": "^18.2.0",
     "awesome-typescript-loader": "^5.2.1",
     "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "dart-sass": "^1.25.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
