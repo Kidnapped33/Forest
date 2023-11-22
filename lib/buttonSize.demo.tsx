@@ -4,9 +4,9 @@ import Button from "./button";
 function ButtonSize() {
   return (
     <>
-      <Button size="small">size</Button>
-      <Button>size</Button>
-      <Button size="big">size</Button>
+      <Button size="small">small</Button>
+      <Button>normal</Button>
+      <Button size="big">big</Button>
     </>
   );
 }
