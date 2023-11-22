@@ -1,6 +1,6 @@
 import * as React from 'react'
 // import * as ReactDOM from 'react-dom'
-import Button from './button';
+import Xxx from './xxx';
 import { createRoot } from 'react-dom/client';
 
 
@@ -9,5 +9,5 @@ import { createRoot } from 'react-dom/client';
 
 const root = createRoot(document.body);
 // const root = document.createElement('root');
-root.render(<Button/>);
+root.render(<Xxx/>);
 

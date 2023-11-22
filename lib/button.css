@@ -1,19 +1,72 @@
-.f-bottom {
-  border: 10px solid orange;
-  padding: 10px;
+.forest-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 1px 1px 4px 1px rgba(5, 5, 5, 0.2);
+  border: none;
+  transition: background-color 0.3s ease;
+  color: "white";
 
-  > button {
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
-    border: none;
-    transition: background-color 0.3s ease;
+  &.forest-theme-text {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #5e72e4;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(229, 229, 229, 0.6);
+    }
   }
+  &.forest-theme-primary {
+    border-color: #5e72e4;
+    background-color: #5e72e4;
+    color: white;
 
-  > button:hover {
-    background-color: #b24141; /* 颜色加深 */
+    &:hover,
+    &:focus {
+      background-color: rgba(93, 114, 229, 0.6);
+    }
+  }
+  &.forest-theme-info {
+    border-color: #11cdef;
+    background-color: #11cdef;
+    color: white;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(17, 205, 239, 0.6);
+    }
+  }
+  &.forest-theme-success {
+    border-color: #2dce89;
+    background-color: #2dce89;
+    color: white;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(45, 206, 137,0.6);
+    }
+  }
+  &.forest-theme-warning {
+    border-color: #fb6340;
+    background-color: #fb6340;
+    color: white;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(251, 99, 64, 0.6);
+    }
+  }
+  &.forest-theme-danger {
+    border-color: #f5365c;
+    background-color: #f5365c;
+    color: white;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(245, 54, 92, 0.6);
+    }
   }
 }
