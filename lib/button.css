@@ -69,4 +69,14 @@
       background-color: rgba(245, 54, 92, 0.6);
     }
   }
+
+  &.forest-size-small {
+    padding: 6px 14px;
+    font-size: 10px;
+  } 
+
+  &.forest-size-big {
+    padding: 14px 24px;
+    font-size: 20px;
+  } 
 }
