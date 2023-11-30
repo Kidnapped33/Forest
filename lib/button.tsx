@@ -1,14 +1,16 @@
 import * as React from "react";
-import "./button.css";
+import "./button.scss";
 
-function Button({ children,theme = "text", size=""}) {
+function Button({ children, theme = "text", size = "" }) {
   return (
     <span>
-      <button className={`
+      <button
+        className={`
       forest-button 
       forest-theme-${theme}
       forest-size-${size}
-      `}>
+      `}
+      >
         {children}
       </button>
     </span>
