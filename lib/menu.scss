@@ -1,0 +1,12 @@
+.menu-list {
+//   padding: 0 10px;
+
+  > a {
+    padding: 10px;
+  }
+
+  > a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid rgb(184, 193, 172);
+  }
+}

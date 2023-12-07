@@ -1,9 +1,10 @@
 import * as React from 'react'
-import Xxx from './xxx';
+import App from './App';
 import { createRoot } from 'react-dom/client';
+import './index.scss'
 
 
 const container = document.createElement('div');
 document.body.appendChild(container);
 const root = createRoot(container);
-root.render(<Xxx />);
+root.render(<App />);
